@@ -6,6 +6,9 @@
 
 💻 Frontend Engineer(main)
   - ReactJS / VueJS / HTML / JS / CSS
+  
+<br/>
+<br/>
 
 <div align="center">
   <h2>🐍 Snake eating my contribution 🐍</h2>
