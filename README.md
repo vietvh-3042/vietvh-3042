@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=vietvh-3042&show_icons=true&hide_title=true&theme=transparent" />
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=vietvh-3042&show_icons=true&hide_title=true&theme=transparent&count_private=true" />
 
 😄 I’m **Viet Vu Hong**, from 🇨🇳 VietName, base in HaNoi
 
