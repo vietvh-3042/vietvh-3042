@@ -1,0 +1,19 @@
+name: Auto Create Milestone
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  create-milestone:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gọi API tạo milestone
+        run: |
+          DATE=$(date -u +"%Y-%m-%d")
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/milestones \
+            -d "{\"title\":\"Milestone $DATE\",\"due_on\":\"${DATE}T23:59:59Z\",\"description\":\"Milestone auto $DATE\"}"
